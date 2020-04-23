@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace DecoratorPattern
 {
+    /// <summary>裝飾者模式</summary>
     class Program
     {
         static void Main(string[] args)
