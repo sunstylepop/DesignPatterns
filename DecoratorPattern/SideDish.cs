@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DecoratorPattern
+﻿namespace DecoratorPattern
 {
     public abstract class SideDish : FoodClass
     {
@@ -46,7 +40,7 @@ namespace DecoratorPattern
         }
     }
 
-    public class StewedPork  : SideDish
+    public class StewedPork : SideDish
     {
         public StewedPork(FoodClass f) : base(f)
         {
