@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ObserverPattern
+﻿namespace ObserverPattern
 {
     class Program
     {
@@ -46,7 +40,8 @@ namespace ObserverPattern
 
 
             //以下為包裝此Class 用的method 
-            public void RigestCustomer(Iobserver user){
+            public void RigestCustomer(Iobserver user)
+            {
                 RegisterObserver(user);
             }
 
@@ -69,7 +64,7 @@ namespace ObserverPattern
             {
                 this._Name = Name;
             }
-            
+
             //供Observer呼叫使用
             public void update(string messages)
             {
@@ -105,7 +100,7 @@ namespace ObserverPattern
             sm.SendDM("desk sale NT:$20");
 
             Console.ReadLine();
-            
+
 
         }
     }

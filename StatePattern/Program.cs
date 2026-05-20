@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace StatePattern
+﻿namespace StatePattern
 {
     /// <summary>狀態模式</summary>
     //與策略模式類似, 但差再策略模式彼此不知道彼此的存在
